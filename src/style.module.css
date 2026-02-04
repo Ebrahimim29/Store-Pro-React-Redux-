@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+button{
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+button .success{
+    background-color: green;
+}
+
+button .warning{
+    background-color: red;
+}
+
+button .success{
+    background-color: green;
+}
