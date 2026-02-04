@@ -10,12 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@redux-devtools/extension": "^3.3.0",
     "@tailwindcss/vite": "^4.1.18",
     "logger": "^0.0.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-redux": "^9.2.0",
     "redux": "^5.0.1",
+    "redux-logger": "^3.0.6",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 import { Provider } from "react-redux";
-import Mystore from "./MyStore";
+import Mystore from "./Mystore";
 import store from "../Redux/Store";
 
 

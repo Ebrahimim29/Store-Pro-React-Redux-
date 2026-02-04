@@ -19,9 +19,9 @@ const Mystore = () => {
             <div className="text-center mt-3">
                 {/* <button className="btn btn-success mx-3" onClick={buyApple}>خرید سیب</button>
                 <button className="btn btn-warning mx-3" onClick={buyOrange}>خرید پرتقال</button> */}
-                <button className="success mx-3" onClick={()=>dispatch(buyApple())}>خرید سیب</button>
-                <button className="warning mx-3" onClick={()=>dispatch(buyOrange())}>خرید پرتقال</button>
-                <button className="info mx-3" onClick={()=>dispatch(buySandwich())}>خرید ساندویچ</button>
+                <button className="success mx-3 bg-green-500" onClick={()=>dispatch(buyApple())}>خرید سیب</button>
+                <button className="warning mx-3 bg-orange-400" onClick={()=>dispatch(buyOrange())}>خرید پرتقال</button>
+                <button className="info mx-3 bg-sky-400" onClick={()=>dispatch(buySandwich())}>خرید ساندویچ</button>
             </div>
         </div>
     )
